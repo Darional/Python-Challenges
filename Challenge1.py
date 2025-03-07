@@ -18,7 +18,7 @@ def string_obtainer(input: str) -> str:
         while index < (len(input)):
             char = input[index]
             if char.isdigit():
-                num = int(char)
+                num = num*10 + int(char)
             elif char == "[":
                 # Obtain the string inside the brackets and the new index.
                 sub_string, index = recursive_function(index+1)
@@ -33,11 +33,3 @@ def string_obtainer(input: str) -> str:
     final_result, _ = recursive_function(0)
     return final_result
 
-
-
-
-
-# string_to_traduce = "3[a]2[bc]"
-string_to_traduce = "3[a2[bc]]"
-traduced_string = string_obtainer(string_to_traduce)
-print(traduced_string)
