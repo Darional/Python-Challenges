@@ -25,11 +25,8 @@ def reverse_strings(input: str) -> str:
 """
 
 
-""" Solution with reversed """
+""" Solution with slicing """
 """
 def reverse_strings(input: str) -> str:
     return input[::-1]
 """
-string= "Darional"
-reversed_string= reverse_strings(string)
-print(reversed_string)

@@ -2,6 +2,7 @@
 
 It's just a compilation of challenges of python that you can learn how to code and the logic of it.
 
+You can prove your outputs using the "Unitests.py" running the command "**python -m unittest .\Unitests.py**"
 <br>
 
 ## 🏆 Challenge 1: Recursive Function
