@@ -4,10 +4,10 @@ It's just a compilation of challenges of python that you can learn how to code a
 
 <br>
 
-# 🏆 Challenge 1: Recursive Function
+## 🏆 Challenge 1: Recursive Function
 ### 📌 Topics: Recursion, String Manipulation
 
-## 🔹 Problem Statement
+#### 🔹 Problem Statement
 Given an **encoded string**, return its **decoded output** by following the pattern:
 
 - A number `N` followed by `[ ]` means that the string inside the brackets should be **repeated `N` times**.
@@ -35,3 +35,24 @@ Given an **encoded string**, return its **decoded output** by following the patt
 ```python
 def decode_string(input: str) -> str:
     pass  # Implement the function here
+```
+<br>
+
+---
+---
+## 🏅 Challenge 2: Reverse a String  
+### 📌 Topics: String Manipulation  
+#### 🔹 Problem Statement  
+Write a function to **reverse a given string** without using `[::-1]` or `reversed()`.  
+
+#### 📥 Input & 📤 Output Examples  
+| Input       | Expected Output |
+|------------|----------------|
+| `"hello"`  | `"olleh"`       |
+| `"Python"` | `"nohtyP"`       |
+
+#### ✅ Expected Function Signature  
+```python
+def reverse_string(input: str) -> str:
+    pass  # Implement functio
+
